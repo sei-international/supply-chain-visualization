@@ -60,6 +60,6 @@ If one intermediate layer contains clicked nodes, the central chart shows the di
 # Data file structure
 
 The supply chain is represented by the following objects:
-- *unit*, an array giving the units in which the quantities flowing along the supply chain are measured;
-- *nodes*, an array of nodes objects with the properties *name* and *type*;
-- *links*, an array of objects representing elemental flows between the same sequence of nodes, with the properties 'listNodes' (an array giving the names of the node objects) and *value* (giving the amounts flowing along the path, in units given by the array *unit*).
+- *unit* - an array giving the units in which the quantities flowing along the supply chain are measured;
+- *nodes* - an array of nodes objects with the properties *name* and *type*;
+- *links* - an array of objects representing elemental flows between the same sequence of nodes, with the properties *listNodes* (an array giving the names of the node objects) and *value* (giving the amounts flowing along the path, in units given by the array *unit*).
