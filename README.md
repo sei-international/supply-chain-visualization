@@ -57,7 +57,7 @@ The chart on the left (or right) shows the distribution of origins (or destinati
 
 If one intermediate layer contains clicked nodes, the central chart shows the distribution of flows passing through the node currently under the mouse in the clicked layer.
 
-# File structure
+# Data file structure
 
 The supply chain is represented by the following objects:
 - *unit*, an array giving the units in which the quantities flowing along the supply chain are measured;
