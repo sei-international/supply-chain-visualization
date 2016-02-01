@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>SEI - Supply Chain Visualization</title>
+    <link rel="stylesheet" type="text/css" href="css/platform_style.css">
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="scripts/sankey.js"></script>
+  </head>
+  <body>
+    <div id="options">
+      <input name="resetButton" 
+             type="button" 
+             value="Reset" 
+             onclick="reset()" />
+      <select id="ddl" onchange="rescale()">
+        <option value=0 selected="selected">Quantity1 (Unit1)</option>
+        <option value=1>Quantity2 (unit2)</option>
+      </select>
+      <input name="subsetButton" 
+             type="button" 
+             value="Zoom into selected nodes" 
+             onclick="subset()" />
+      <input name="excludeButton" 
+             type="button" 
+             value="Exclude selected nodes" 
+             onclick="exclude()" />
+      <input name="subsetLayerButton"
+             type="button" 
+             value="Select layers" 
+             onclick="subsetLayerSankey()" />
+      <select id="ddlNode" onchange="selectNode()">
+        <option value=0  selected="selected">Select node by name</option>
+      </select>
+    </div>
+    <div id="chart"></div>
+    <div id="info"></div>
+    <script>var file = "data/data.json"</script>
+    <script src="scripts/makeSankey.js"></script>
+    <script src="scripts/makeInfo.js"></script>		
+  </body>
+</html>
