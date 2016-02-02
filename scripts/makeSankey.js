@@ -207,7 +207,7 @@ function subset() {
   setTimeout(function(){
     clickedNodes = [];
     clickedNodeNames = [];
-  },5000);
+  },100);
 };
 
 // clear diagram
@@ -993,10 +993,6 @@ function addDir() {
         })
 
         .on("click", function(d) {
-
-          // change color of outer circle DOES NOT WORK
-          //var outCir = d3.selectAll(".cir").filter(function(x) {return x[0] == d[0]})
-          //outCir.style("stroke","red")
 
           // flatten list of links
           var flatLinks = [];

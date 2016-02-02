@@ -1,4 +1,3 @@
-
 # Supply chain visualization
 
 Interactive Sankey diagram [http://sei-international.github.io/supply-chain-visualization/](http://sei-international.github.io/supply-chain-visualization/)
