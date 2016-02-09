@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/20352/csuavet/supply-chain-visualization.svg)](https://zenodo.org/badge/latestdoi/20352/csuavet/supply-chain-visualization)
+
 # Supply chain visualization
 
 Interactive Sankey diagram [http://sei-international.github.io/supply-chain-visualization/](http://sei-international.github.io/supply-chain-visualization/)
